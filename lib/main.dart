@@ -13,8 +13,17 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text('Hello World'),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('I am Rich'),
+          backgroundColor: Colors.green,
+        ),
+        backgroundColor: Colors.tealAccent,
+        body: Center(
+          child: Image(
+            image: AssetImage('assets/images/diamond.png'),
+          ),
+        ),
       ),
     ),
   );
