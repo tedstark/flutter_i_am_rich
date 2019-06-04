@@ -20,9 +20,7 @@ void main() {
         ),
         backgroundColor: Colors.tealAccent,
         body: Center(
-          child: Image(
-            image: AssetImage('assets/images/diamond.png'),
-          ),
+          child: Image(image: AssetImage('assets/images/diamond.png')),
         ),
       ),
     ),
